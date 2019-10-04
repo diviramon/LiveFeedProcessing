@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Vimba">
-      <UniqueIdentifier>{954ec749-3d23-4d4c-87f0-418a38b5db89}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mako-live.cpp">
@@ -24,49 +21,49 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="image_process.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="const.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ApiController.cpp">
-      <Filter>Vimba</Filter>
+    <ClCompile Include="Vimba\ApiController.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CameraObserver.cpp">
-      <Filter>Vimba</Filter>
+    <ClCompile Include="Vimba\CameraObserver.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FrameObserver.cpp">
-      <Filter>Vimba</Filter>
+    <ClCompile Include="Vimba\FrameObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Image Processing\image_process.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="image_process.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="const.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ApiController.h">
-      <Filter>Vimba</Filter>
+    <ClInclude Include="Vimba\ApiController.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CameraObserver.h">
-      <Filter>Vimba</Filter>
+    <ClInclude Include="Vimba\CameraObserver.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ErrorCodeToMessage.h">
-      <Filter>Vimba</Filter>
+    <ClInclude Include="Vimba\ErrorCodeToMessage.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FrameObserver.h">
-      <Filter>Vimba</Filter>
+    <ClInclude Include="Vimba\FrameObserver.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StreamSystemInfo.h">
-      <Filter>Vimba</Filter>
+    <ClInclude Include="Vimba\StreamSystemInfo.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TransformImage.h">
-      <Filter>Vimba</Filter>
+    <ClInclude Include="Vimba\TransformImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image Processing\image_process.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

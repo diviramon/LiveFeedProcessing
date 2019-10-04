@@ -154,11 +154,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ApiController.cpp" />
-    <ClCompile Include="CameraObserver.cpp" />
     <ClCompile Include="const.cpp" />
-    <ClCompile Include="FrameObserver.cpp" />
-    <ClCompile Include="image_process.cpp" />
+    <ClCompile Include="Image Processing\image_process.cpp" />
     <ClCompile Include="mako-live.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -166,17 +163,20 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Vimba\ApiController.cpp" />
+    <ClCompile Include="Vimba\CameraObserver.cpp" />
+    <ClCompile Include="Vimba\FrameObserver.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ApiController.h" />
-    <ClInclude Include="CameraObserver.h" />
     <ClInclude Include="const.h" />
-    <ClInclude Include="ErrorCodeToMessage.h" />
-    <ClInclude Include="FrameObserver.h" />
-    <ClInclude Include="image_process.h" />
+    <ClInclude Include="Image Processing\image_process.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="StreamSystemInfo.h" />
-    <ClInclude Include="TransformImage.h" />
+    <ClInclude Include="Vimba\ApiController.h" />
+    <ClInclude Include="Vimba\CameraObserver.h" />
+    <ClInclude Include="Vimba\ErrorCodeToMessage.h" />
+    <ClInclude Include="Vimba\FrameObserver.h" />
+    <ClInclude Include="Vimba\StreamSystemInfo.h" />
+    <ClInclude Include="Vimba\TransformImage.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

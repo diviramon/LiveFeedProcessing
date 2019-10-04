@@ -28,13 +28,13 @@
 #include "VimbaCPP.h"
 #include "VimbaImageTransform/Include/VmbTransform.h"
 // Project specifc
-#include "image_process.h"
+#include "Image Processing/image_process.h"
 #include "const.h"
-#include "ApiController.h"
-#include "CameraObserver.h"
-#include "FrameObserver.h"
-#include "StreamSystemInfo.h"
-#include "ErrorCodeToMessage.h"
+#include "Vimba/ApiController.h"
+#include "Vimba/CameraObserver.h"
+#include "Vimba/FrameObserver.h"
+#include "Vimba/StreamSystemInfo.h"
+#include "Vimba/ErrorCodeToMessage.h"
 //#include "TransformImage.h"
 
 
